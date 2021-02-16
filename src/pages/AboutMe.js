@@ -16,11 +16,8 @@ British Columbia's Okanagan Campus. From a young age I have always been
 </p>
 
 <p class = "aboutme_text_p">
-I choose Mechanical Engineering because I am someone 
-who like to tinker with robotics. This is one of
- the reason that I choose Mechatronics as my specialization. To advance my abilities in the field  
- of robotics I study electrical engineering, business and computer science concepts 
- outside of my university classes. 
+I chose Mechanical Engineering because I wanted to work in the field of robotics. This is one of the reasons that I chose mechatronics as my specializtion. Iutside of my university, I study concepts related to electrical engineering, business and computer science. Currently, I am reading "Practical Electronics for Inventors" by Paul Scherz and Simon Monk
+
 </p>
 
 <p class = "aboutme_text_p">
