@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* navy blue: 18121E #233237 #984B43 #EAE3EA*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f1de;
+}
+.div_name {
+  width: 27rem;
+}
+.name {
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  color: #1e3859;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-decoration: underline;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* NavBar */
+
+.Navbar {
+  width: 100%;
+  height: 50px;
+  font-family: FreeMono, monospace;
+  display: flex;
+}
+
+.Navbar .leftSide {
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.Navbar .leftSide .links {
+  max-height: 80px;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin-left: 15px;
+  position: relative;
+}
+.NavLink::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.35s ease-out;
+}
+
+.NavLink:hover::before {
+  transform: scale(1);
+  transform-origin: bottom left;
+}
+
+.Navbar .rightSide {
+  flex: 50%;
+}
+
+/* Home Page */
+
+.home_image {
+  height: 85vh;
+  width: 40%;
+  object-fit: cover;
+  border-radius: 20%;
+  object-position: 18% 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.home_text {
+  padding: 2rem;
+  display: inline-block;
+  font-family: FreeMono, monospace;
+  color: #3d405b;
+  width: 46%;
+  @media (max-width: 620px) {
+    width: 100%;
+  }
+}
+
+.home_intro {
+  font-size: 2.5rem;
+}
+
+.home_intro2 {
+  font-size: 1.7rem;
+  padding-top: 5%;
+}
+
+.home_inst {
+  padding-top: 5%;
+}
+/*About me */
+.aboutme_text {
+  height: 30%;
+  display: inline-block;
+  font-family: FreeMono, monospace;
+  color: #3d405b;
+  width: 46%;
+  @media (max-width: 620px) {
+    width: 100%;
+  }
+}
+
+.aboutme_text h2 {
+  text-decoration: underline;
+  padding-bottom: 1.2rem;
+}
+.aboutme_text p {
+  font-size: clamp(1.25rem, 2.47vh, 1.75rem);
+  margin-bottom: 25px;
+}
+/*Abilities */
+.abilities {
+  margin-top: 3rem;
+  height: 30%;
+  display: inline-block;
+  font-family: FreeMono, monospace;
+  color: #3d405b;
+  width: 46%;
+  @media (max-width: 620px) {
+    width: 100%;
+  }
+}
+
+.abilities h2 {
+  text-decoration: underline;
+  padding-bottom: 1.2rem;
+}
+.abilities ul {
+  list-style-type: none;
+}
+.abilities2 li {
+  margin-bottom: 10px;
+}
+/* Projects */
+.row {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row h1 {
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  margin-bottom: 0.3vh;
+}
+
+#grabCAD {
+  font-size: 1.1rem;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.social-container {
+  padding: 0.1rem 0.2px;
+}
+
+a.social {
+  color: black;
+  margin: 0.15rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-0.22rem);
+}
+
+/* test */
