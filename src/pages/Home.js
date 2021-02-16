@@ -1,5 +1,5 @@
 import React from 'react';
-import Pic from '../components/DSC_5068.JPG';
+import Pic from '../components/DSC_5068.PNG';
 import {motion} from "framer-motion";
 import {BsStar, BsStarHalf, BsStarFill} from 'react-icons/bs';
 
