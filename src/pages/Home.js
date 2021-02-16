@@ -98,7 +98,7 @@ I am a student of Mechanical Engineering
             </span>
         </li>
         <li>
-            <span class = "ability_title">JavaScrpit: </span>
+            <span class = "ability_title">JavaScript: </span>
             <span class = "ability_score">
             <BsStarFill/>
             <BsStarFill/>
