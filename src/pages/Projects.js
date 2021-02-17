@@ -15,9 +15,9 @@ return(
     <div class="card">
       <h2 style={{marginBottom: "10px"}} >noKnot</h2>
       
-      <img  src = {noKnot} alt = "noKnotImg" style={{height: "20rem", width: "auto"}}></img> 
+      <img  src = {noKnot} alt = "noKnotImg" className = "project_image"></img> 
 
-      <p style = {{marginTop:"10px"}}>This is a 3D printed wiremagement system which was created in solid works. It comes in two main parts, the base and the screws, along with several accessories which can be attached to the base. The screws are threaded so they easily fit into the base and can be stuck to any desk. This block allows for a center area where wires can be concentrated into. This was created in partnership with my solidworks team at UBC.</p>
+      <p style = {{marginTop:"10px", marginRight: "20px"}}>This is a 3D printed wiremagement system which was created in solid works. It comes in two main parts, the base and the screws, along with several accessories which can be attached to the base. The screws are threaded so they easily fit into the base and can be stuck to any desk. This block allows for a center area where wires can be concentrated into. This was created in partnership with my solidworks team at UBC.</p>
         <hr style = {{marginTop:"10px"}}/>
     </div>
     

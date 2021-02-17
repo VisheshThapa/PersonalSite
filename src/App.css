@@ -9,21 +9,6 @@ body {
   padding: 0;
   background: #f4f1de;
 }
-.div_name {
-  width: 27rem;
-}
-.name {
-  font-family: sans-serif;
-  font-size: 2.5rem;
-  color: #1e3859;
-  margin-top: 1rem;
-  margin-left: 1rem;
-  text-decoration: underline;
-}
-
-.name:hover {
-  cursor: pointer;
-}
 
 .page-container {
   display: flex;
@@ -93,14 +78,45 @@ body {
   padding: 10px;
 }
 
+@media (max-width: 630px) {
+  img.home_image {
+    display: none;
+  }
+}
+
 .home_text {
   padding: 2rem;
   display: inline-block;
   font-family: FreeMono, monospace;
   color: #3d405b;
   width: 46%;
-  @media (max-width: 620px) {
+}
+
+@media (max-width: 630px) {
+  .home {
     width: 100%;
+    display: flex;
+    text-align: center !important;
+  }
+  .home_text {
+    padding: 5px;
+    width: 100%;
+  }
+  .aboutme_text {
+    width: 100% !important;
+    margin-right: 20px;
+    margin-bottom: 40px !important;
+  }
+  .abilities {
+    width: 100% !important;
+  }
+  .abilities2 {
+    margin-bottom: 40px !important;
+  }
+
+  .leftcolumn {
+    width: 100%;
+    margin-right: 20px;
   }
 }
 
@@ -117,15 +133,13 @@ body {
   padding-top: 5%;
 }
 /*About me */
+
 .aboutme_text {
-  height: 30%;
+  margin-left: 20px;
   display: inline-block;
   font-family: FreeMono, monospace;
   color: #3d405b;
   width: 46%;
-  @media (max-width: 620px) {
-    width: 100%;
-  }
 }
 
 .aboutme_text h2 {
@@ -144,7 +158,7 @@ body {
   font-family: FreeMono, monospace;
   color: #3d405b;
   width: 46%;
-  @media (max-width: 620px) {
+  @media (max-width: 630px) {
     width: 100%;
   }
 }
@@ -160,6 +174,19 @@ body {
   margin-bottom: 10px;
 }
 /* Projects */
+.project_image {
+  width: auto;
+  height: 20rem;
+}
+@media (max-width: 520px) {
+  .project_image {
+    width: 95%;
+    height: auto;
+  }
+  .card p {
+    padding-right: 10px;
+  }
+}
 .row {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
@@ -169,19 +196,12 @@ body {
   width: 75%;
 }
 
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
 .card {
   padding: 20px;
 }
 
 @media screen and (max-width: 800px) {
-  .leftcolumn,
-  .rightcolumn {
+  .leftcolumn {
     width: 100%;
     padding: 0;
   }

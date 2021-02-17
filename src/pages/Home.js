@@ -9,8 +9,8 @@ return(
 <motion.div  style = {{position: "absolute"}} class = "home" id = "Home" initial = "initial" animate = "in" exit = "out" 
 variants = {pageVariants} transition = {pageTransition}>
     
-    <div class = "backimg"></div> 
     <img src = {Pic} alt = "home_pic" class = "home_image"/>
+    
 <div class = "home_text">
 <h1 class = "home_intro">
     Hello my name is Vishesh Jung Thapa. 
